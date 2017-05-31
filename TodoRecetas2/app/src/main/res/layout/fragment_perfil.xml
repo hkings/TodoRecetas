@@ -45,7 +45,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Lasem Code"
+                    android:text="Andres"
                     android:textColor="@android:color/white"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -53,7 +53,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="\@lasemcode"
+                    android:text="\@Colombia"
                     android:textColor="@android:color/white"
                     android:textStyle="bold" />
 
@@ -73,7 +73,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginLeft="8dp"
-                        android:text="Lasem, Rembang, Indonesia"
+                        android:text="Medellin , Colombia"
                         android:textColor="@android:color/white"
                         android:textStyle="bold" />
 
@@ -164,22 +164,21 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lasem Code"
+                android:text="Andres "
                 android:textSize="24sp"
-                android:textStyle="bold"
-                />
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="#37474F"
-                android:text="\@lasemcode"/>
+                android:text="\@Colombia"
+                android:textColor="#37474F" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mattis posuere quam"/>
+                android:text="Puede que se haya hecho evidente en mi blog cuánto amo las arepas, yo podría comer arepas en cada comida. El almuerzo de hoy fue una arepa crujiente con una mezcla simple y cremosa de atún y camarones." />
 
         </LinearLayout>
 
@@ -199,9 +198,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mattis posuere quam, non finibus augue tempus id. Curabitur ut ultricies mi. Donec eget consectetur metus. Duis maximus lacinia orci, pellentesque commodo diam ultricies condimentum. Morbi consectetur rutrum vehicula. Nullam efficitur enim vel est varius, eu dictum sem sagittis. Pellentesque congue ante ac urna molestie vestibulum. Praesent tempus velit id diam rutrum efficitur eu vel lectus. Aliquam lacinia tortor dolor, eu porta purus bibendum ac. Maecenas gravida lorem sed orci varius vestibulum. In ac vestibulum quam, ac varius diam. Fusce consequat velit vel ipsum tempor, nec cursus nibh elementum. Sed volutpat, ipsum eu sollicitudin mollis, neque lacus malesuada lacus, quis porttitor erat turpis ac leo.
-
-"/>
+                android:text="Las “arepas” en Colombia se comían generalmente para el desayuno con mantequilla y huevos o queso. Pero los usos de arepas han cambiado mucho y ahora se comen para el almuerzo o la cena con diferentes ingredientes. Como este Arepa con Atún y Camarones que hice para mi hermana cuando vino a visitarme hace 3 semanas.  " />
 
         </LinearLayout>
 

@@ -1,5 +1,7 @@
 package com.example.hkings.todorecetas;
 
+import android.app.ListFragment;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -65,6 +67,28 @@ public class LeadsFragment extends Fragment {
         });
 
         setHasOptionsMenu(true);
+
+
+        mLeadsList.setOnItemClickListener(new AdapterView.OnItemClickListener()
+        {
+            @Override public void onItemClick(AdapterView<?> arg0, View arg1,int position, long arg3)
+            {
+               // Toast.makeText(getActivity(), "Stop Clicking me", Toast.LENGTH_SHORT).show();
+
+
+                        Intent i = new Intent(getActivity(), receta1.class);
+                        startActivity(i);
+
+
+
+             //   unareceta recetas11 = new unareceta();
+               // android.app.FragmentManager rmanager = getFragmentManager();
+              //  rmanager.beginTransaction().replace(R.id.contentl, recetas11, recetas11.getTag()).commit();
+
+            }
+        });
+
+
         return root;
     }
 
@@ -73,6 +97,8 @@ public class LeadsFragment extends Fragment {
         super.onCreateOptionsMenu(menu, inflater);
         inflater.inflate(R.menu.menu_leads_list, menu);
     }
+
+
 
 
 }

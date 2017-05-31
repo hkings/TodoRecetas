@@ -84,6 +84,15 @@ public class recetas extends Fragment implements View.OnClickListener {
 
         ImageButton b = (ImageButton) v.findViewById(R.id.btndesayuno);
         b.setOnClickListener(this);
+
+        ImageButton c = (ImageButton) v.findViewById(R.id.btnalmuerzo);
+        c.setOnClickListener(this);
+
+        ImageButton d = (ImageButton) v.findViewById(R.id.btncenas);
+        d.setOnClickListener(this);
+
+        ImageButton e = (ImageButton) v.findViewById(R.id.btnpostres);
+        e.setOnClickListener(this);
         return v;
 
     }
@@ -94,6 +103,21 @@ public class recetas extends Fragment implements View.OnClickListener {
             case R.id.btndesayuno:
                 Intent i = new Intent(getActivity(), desayunos.class);
                 startActivity(i);
+                break;
+
+            case R.id.btnalmuerzo:
+                Intent e = new Intent(getActivity(), desayunos.class);
+                startActivity(e);
+                break;
+
+            case R.id.btncenas:
+                Intent f = new Intent(getActivity(), desayunos.class);
+                startActivity(f);
+                break;
+
+            case R.id.btnpostres:
+                Intent g = new Intent(getActivity(), desayunos.class);
+                startActivity(g);
                 break;
         }
     }

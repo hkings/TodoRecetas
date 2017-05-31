@@ -1,12 +1,18 @@
 package com.example.hkings.todorecetas;
 
 
+import android.Manifest;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.app.Fragment;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
+import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
+
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapView;
@@ -26,7 +32,7 @@ import com.google.android.gms.maps.SupportMapFragment;
 
 
 
-public class map extends Fragment {
+public class map extends Fragment{
 
     public map() {
         // Required empty public constructor
@@ -57,7 +63,21 @@ public class map extends Fragment {
                 mMap1 = mMap;
 
                 // For showing a move to my location button
-               // mMap1.setMyLocationEnabled(true);
+                /*
+                if (ContextCompat.checkSelfPermission(getActivity(), Manifest.permission.ACCESS_FINE_LOCATION)
+                        == PackageManager.PERMISSION_GRANTED) {
+                    mMap1.setMyLocationEnabled(true);
+                } else {
+                    Toast.makeText(getActivity(), "You have to accept to enjoy all app's services!", Toast.LENGTH_LONG).show();
+                    if (ContextCompat.checkSelfPermission(getActivity(), Manifest.permission.ACCESS_FINE_LOCATION)
+                            == PackageManager.PERMISSION_GRANTED) {
+                        mMap1.setMyLocationEnabled(true);
+                    }
+                }
+                */
+
+
+                // mMap1.setMyLocationEnabled(true);
 
                 // For dropping a marker at a point on the Map
                 LatLng medellin = new LatLng(6.2442, -75.5812);
